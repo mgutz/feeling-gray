@@ -1,0 +1,22 @@
+{
+    "name": "feeling-gray",
+    "displayName": "feeling-gray",
+    "description": "Grayscale with hues of blues color theme.",
+    "version": "0.0.1",
+    "publisher": "foo",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Feeling Gray",
+                "uiTheme": "vs",
+                "path": "./themes/Feeling Gray-color-theme.json"
+            }
+        ]
+    }
+}
