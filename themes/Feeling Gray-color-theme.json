@@ -103,17 +103,19 @@
       "name": "String",
       "scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string",
       "settings": {
+        "background": "#ff0000",
         //"fontStyle": "italic",
         // https://material.io/guidelines/style/color.html#color-color-palette indigo
-        "foreground": "#7986cb"
+        "foreground": "#1976D2"
       }
     },
 
     {
       "name": "Primitive Literals",
-      "scope": "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color,constant.language",
+      "scope": "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color, constant.language",
       "settings": {
-        "foreground": "#212529"
+        "fontStyle": "bold",
+        "foreground": "#1976D2"
       }
     },
     {
@@ -261,11 +263,34 @@
         "foreground": "#cd3131"
       }
     },
+
     {
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#800080"
       }
+    },
+
+    {
+      "scope": "meta.template.expression",
+      "settings": {
+        "foreground": "#0D47A1"
+      }
+    },
+
+    {
+      "scope": "punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#0D47A1"
+      }
+    },
+
+    {
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+      "settings": {
+        "foreground": "#1976D2"
+      }
     }
+
   ]
 }
