@@ -279,7 +279,7 @@
     },
 
     {
-      "scope": "punctuation.definition.template-expression",
+      "scope": "punctuation.definition.template-expression, string constant.character",
       "settings": {
         "foreground": "#0D47A1"
       }
