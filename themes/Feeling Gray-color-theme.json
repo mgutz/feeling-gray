@@ -106,7 +106,7 @@
         "background": "#ff0000",
         //"fontStyle": "italic",
         // https://material.io/guidelines/style/color.html#color-color-palette indigo
-        "foreground": "#1976D2"
+        "foreground": "#FF5722"
       }
     },
 
@@ -115,7 +115,7 @@
       "scope": "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color, constant.language",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#1976D2"
+        "foreground": "#FF5722"
       }
     },
     {
@@ -274,21 +274,21 @@
     {
       "scope": "meta.template.expression",
       "settings": {
-        "foreground": "#0D47A1"
+        "foreground": "#BF360C"
       }
     },
 
     {
       "scope": "punctuation.definition.template-expression, string constant.character",
       "settings": {
-        "foreground": "#0D47A1"
+        "foreground": "#BF360C"
       }
     },
 
     {
       "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
       "settings": {
-        "foreground": "#1976D2"
+        "foreground": "#FF5722"
       }
     }
 
