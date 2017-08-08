@@ -101,7 +101,7 @@
     },
     {
       "name": "String",
-      "scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string",
+      "scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string, entity.name.import.go",
       "settings": {
         "background": "#ff0000",
         //"fontStyle": "italic",
