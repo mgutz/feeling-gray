@@ -18,21 +18,23 @@
 
     "editor.foreground": "#51575e",
     "editor.inactiveSelectionBackground": "#cfd4d9",
-    "editor.lineHighlightBackground": "#e9ecee",
     "editor.selectionBackground": "#83cefa",
 
     //"editor.selectionHighlightBackground": "#b4e2fc",
     "editor.selectionHighlightBackground": "#e8f7ff",
 
-
-
     // BEGIN mgutz
     //"editorCursor.foreground": "#329af0",
     // make this more visible since there doesn't seem to be a
     // background for multiple cursors
-    "editorBracketMatch.background":"#FFEBEE",
+    "editorBracketMatch.background": "#FFEBEE",
     "editorBracketMatch.border": "#FFCDD2",
     "editorCursor.foreground": "#FF0000",
+
+    //"editor.lineHighlightBackground": "#e9ecee",
+    "editor.lineHighlightBackground": "#eceef0",
+    //"editor.lineHighlightBorder": "#eceef0",
+
     // END mgutz
 
     "editorGroup.border": "#cfd4d9",
@@ -45,7 +47,6 @@
     "editorOverviewRuler.border": "#00000000",
     "editorSuggestWidget.background": "#f8f9fa",
     "editorWidget.background": "#dce0e4",
-
 
     "errorForeground": "#fb5a5a",
     "focusBorder": "#329af0",
@@ -110,14 +111,16 @@
     },
     {
       "name": "Punctuation",
-      "scope": "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value,punctuation.definition.metadata.md, string.link.md, meta.brace",
+      "scope":
+        "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value,punctuation.definition.metadata.md, string.link.md, meta.brace",
       "settings": {
         "foreground": "#727981"
       }
     },
     {
       "name": "String",
-      "scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string, entity.name.import.go",
+      "scope":
+        "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string, entity.name.import.go",
       "settings": {
         "background": "#ff0000",
         //"fontStyle": "italic",
@@ -128,7 +131,8 @@
 
     {
       "name": "Primitive Literals",
-      "scope": "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color, constant.language",
+      "scope":
+        "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color, constant.language",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FF5722"
@@ -136,14 +140,16 @@
     },
     {
       "name": "User names",
-      "scope": "constant.character, constant.other,entity.name.function, entity.name.class, entity.other.inherited-class, entity.other.attribute-name, entity.name, entity.other.attribute-name, entity.other.attribute-name.html, support.type.property-name, entity.name.tag.table, meta.structure.dictionary.json string.quoted.double.json",
+      "scope":
+        "constant.character, constant.other,entity.name.function, entity.name.class, entity.other.inherited-class, entity.other.attribute-name, entity.name, entity.other.attribute-name, entity.other.attribute-name.html, support.type.property-name, entity.name.tag.table, meta.structure.dictionary.json string.quoted.double.json",
       "settings": {
         "foreground": "#212529"
       }
     },
     {
       "name": "Keyword",
-      "scope": "keyword, meta.property-value.keyword, support.constant.property-value.keyword, meta.preprocessor.keyword,keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new, keyword.other.special-method, keyword.other.unit, keyword.other.use-as",
+      "scope":
+        "keyword, meta.property-value.keyword, support.constant.property-value.keyword, meta.preprocessor.keyword,keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new, keyword.other.special-method, keyword.other.unit, keyword.other.use-as",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#212529"
@@ -151,7 +157,8 @@
     },
     {
       "name": "Storage",
-      "scope": "storage, storage.type, storage.type.ts, storage.type.var.ts, storage.type.js, storage.type.var.js, storage.type.const.ts, storage.type.let.ts, storage.type.let.js, storage.type.const.js, entity.name.tag",
+      "scope":
+        "storage, storage.type, storage.type.ts, storage.type.var.ts, storage.type.js, storage.type.var.js, storage.type.const.ts, storage.type.let.ts, storage.type.let.js, storage.type.const.js, entity.name.tag",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#212529"
@@ -215,7 +222,8 @@
     },
     {
       "name": "Markdown link",
-      "scope": "markup.link, string.other.link.title, string.other.link.description, meta.link.inline, meta.image.inline",
+      "scope":
+        "markup.link, string.other.link.title, string.other.link.description, meta.link.inline, meta.image.inline",
       "settings": {
         "foreground": "#212529"
       }
@@ -302,11 +310,17 @@
     },
 
     {
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, text.html.js",
       "settings": {
         "foreground": "#FF5722"
       }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#51575eff"
+      }
     }
-
   ]
 }
