@@ -14,9 +14,10 @@
     "dropdown.background": "#f8f9fa",
     "dropdown.border": "#cfd4d9",
     "dropdown.foreground": "#51575e",
-    "editor.background": "#f8f9fa",
 
+    "editor.background": "#f8f9fa",
     "editor.foreground": "#51575e",
+
     "editor.inactiveSelectionBackground": "#cfd4d9",
     "editor.selectionBackground": "#83cefa",
 
@@ -35,6 +36,10 @@
     "editor.lineHighlightBackground": "#eceef0",
     //"editor.lineHighlightBorder": "#eceef0",
 
+    "editorRuler.foreground": "#51575e28",
+    "editorIndentGuide.background": "#51575e28",
+    "editorLineNumber.foreground": "#51575e28",
+
     // END mgutz
 
     "editorGroup.border": "#cfd4d9",
@@ -43,7 +48,6 @@
     "editorGutter.addedBackground": "#51cf66",
     "editorGutter.deletedBackground": "#ff6b6b",
     "editorGutter.modifiedBackground": "#329af0",
-    "editorLineNumber.foreground": "#adb5bd",
     "editorOverviewRuler.border": "#00000000",
     "editorSuggestWidget.background": "#f8f9fa",
     "editorWidget.background": "#dce0e4",
@@ -90,8 +94,8 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#51575eff",
-        "background": "#f8f9faff"
+        "foreground": "#51575eff"
+        //"background": "#808386ff"
       }
     },
     {
@@ -125,7 +129,7 @@
         "background": "#ff0000",
         //"fontStyle": "italic",
         // https://material.io/guidelines/style/color.html#color-color-palette indigo
-        "foreground": "#FF5722"
+        "foreground": "#2196F3"
       }
     },
 
@@ -135,7 +139,7 @@
         "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color, constant.language",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#FF5722"
+        "foreground": "#2196F3"
       }
     },
     {
@@ -298,14 +302,14 @@
     {
       "scope": "meta.template.expression",
       "settings": {
-        "foreground": "#BF360C"
+        "foreground": "#0D47A1"
       }
     },
 
     {
       "scope": "punctuation.definition.template-expression, string constant.character",
       "settings": {
-        "foreground": "#BF360C"
+        "foreground": "#0D47A1"
       }
     },
 
@@ -313,11 +317,11 @@
       "scope":
         "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, text.html.js",
       "settings": {
-        "foreground": "#FF5722"
+        "foreground": "#2196F3"
       }
     },
     {
-      "scope": "variable",
+      "scope": "variable, storage.type.class.jsdoc, support.type",
       "settings": {
         "foreground": "#51575eff"
       }
